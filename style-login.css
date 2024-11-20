@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.login{
+    width: 60%;
+    height: 100vh;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Calibri";
+    align-items: center;
+}
+
+.register{
+    background-color: rgb(35, 138, 109);
+    width: 40%;
+    height: 100vh;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Calibri";
+    align-items: center;
+    color: white;
+}
+
+.userinput {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    height: 50px;
+    margin: 20px;
+    width: 500px;
+}
+
+.otp-btn{
+    background-color: rgb(25, 184, 139);
+    height: 50px;
+    width: 100px;
+    color: white;
+    border-radius: 25px;
+    box-shadow: none;
+    border: 0px;
+}
+
+.submit{
+    background-color: rgb(25, 184, 139);
+    height: 50px;
+    width: 200px;
+    color: white;
+    border-radius: 25px;
+    box-shadow: none;
+    border: 0px;
+    margin: 20px;
+}
